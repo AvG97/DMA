@@ -53,8 +53,7 @@ baremetal_dma.list \
 
 
 # All Target
-all:
-	+@$(MAKE) --no-print-directory main-build && $(MAKE) --no-print-directory post-build
+all: main-build
 
 # Main-build Target
 main-build: baremetal_dma.elf secondary-outputs
@@ -80,10 +79,6 @@ clean:
 	-$(RM) baremetal_dma.elf baremetal_dma.list baremetal_dma.map default.size.stdout
 	-@echo ' '
 
-post-build:
-	sonar-scanner.bat -D"sonar.organization=avg97" -D"sonar.projectKey=avg97_dma" -D"sonar.sources=." -D"sonar.cfamily.build-wrapper-output=bw-output" -D"sonar.host.url=https://sonarcloud.io"
-	-@echo ' '
-
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
 
 fail-specified-linker-script-missing:
@@ -93,6 +88,6 @@ fail-specified-linker-script-missing:
 warn-no-linker-script-specified:
 	@echo 'Warning: No linker script specified. Check the linker settings in the build configuration.'
 
-.PHONY: all clean dependents main-build fail-specified-linker-script-missing warn-no-linker-script-specified post-build
+.PHONY: all clean dependents main-build fail-specified-linker-script-missing warn-no-linker-script-specified
 
 -include ../makefile.targets

@@ -7,23 +7,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
   1 .text         00000454  08000198  08000198  00010198  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  2 .rodata       00000300  080005ec  080005ec  000105ec  2**2
+  2 .rodata       000002f0  080005ec  080005ec  000105ec  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  3 .ARM.extab    00000000  080008ec  080008ec  00020004  2**0
+  3 .ARM.extab    00000000  080008dc  080008dc  00020004  2**0
                   CONTENTS
-  4 .ARM          00000000  080008ec  080008ec  00020004  2**0
+  4 .ARM          00000000  080008dc  080008dc  00020004  2**0
                   CONTENTS
-  5 .preinit_array 00000000  080008ec  080008ec  00020004  2**0
+  5 .preinit_array 00000000  080008dc  080008dc  00020004  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  6 .init_array   00000004  080008ec  080008ec  000108ec  2**2
+  6 .init_array   00000004  080008dc  080008dc  000108dc  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  7 .fini_array   00000004  080008f0  080008f0  000108f0  2**2
+  7 .fini_array   00000004  080008e0  080008e0  000108e0  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  8 .data         00000004  20000000  080008f4  00020000  2**2
+  8 .data         00000004  20000000  080008e4  00020000  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  9 .bss          00000030  20000004  080008f8  00020004  2**2
+  9 .bss          00000030  20000004  080008e8  00020004  2**2
                   ALLOC
- 10 ._user_heap_stack 00000604  20000034  080008f8  00020034  2**0
+ 10 ._user_heap_stack 00000604  20000034  080008e8  00020034  2**0
                   ALLOC
  11 .ARM.attributes 00000030  00000000  00000000  00020004  2**0
                   CONTENTS, READONLY
@@ -357,7 +357,7 @@ void dma1_init(void)
  80003c0:	4002609c 	.word	0x4002609c
  80003c4:	400260a0 	.word	0x400260a0
  80003c8:	400260a4 	.word	0x400260a4
- 80003cc:	080008e8 	.word	0x080008e8
+ 80003cc:	080008d8 	.word	0x080008d8
  80003d0:	400260a8 	.word	0x400260a8
  80003d4:	400260ac 	.word	0x400260ac
  80003d8:	080005ec 	.word	0x080005ec
@@ -660,7 +660,7 @@ LoopForever:
   ldr r1, =_edata
  8000578:	20000004 	.word	0x20000004
   ldr r2, =_sidata
- 800057c:	080008f4 	.word	0x080008f4
+ 800057c:	080008e4 	.word	0x080008e4
   ldr r2, =_sbss
  8000580:	20000004 	.word	0x20000004
   ldr r4, =_ebss
@@ -702,10 +702,10 @@ Infinite_Loop:
  80005be:	4798      	blx	r3
  80005c0:	3601      	adds	r6, #1
  80005c2:	e7f2      	b.n	80005aa <__libc_init_array+0x1e>
- 80005c4:	080008ec 	.word	0x080008ec
- 80005c8:	080008ec 	.word	0x080008ec
- 80005cc:	080008ec 	.word	0x080008ec
- 80005d0:	080008f0 	.word	0x080008f0
+ 80005c4:	080008dc 	.word	0x080008dc
+ 80005c8:	080008dc 	.word	0x080008dc
+ 80005cc:	080008dc 	.word	0x080008dc
+ 80005d0:	080008e0 	.word	0x080008e0
 
 080005d4 <_init>:
  80005d4:	b5f8      	push	{r3, r4, r5, r6, r7, lr}

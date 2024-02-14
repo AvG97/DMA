@@ -1,139 +1,274 @@
-Wed Feb 14 21:30:39 2024: build-wrapper, version 6.52.1 (win-x86-64)
-Wed Feb 14 21:30:39 2024: isWow64: 0
-Wed Feb 14 21:30:39 2024: windows version: 10.0, service pack: 0.0, build number: 22631, product type: 1
-Wed Feb 14 21:30:39 2024: current directory: E:\STM32 Codes\baremetal_dma\Debug
-Wed Feb 14 21:30:39 2024: cwd: <E:\STM32 Codes\baremetal_dma\Debug>
-Wed Feb 14 21:30:39 2024: out-dir absolute path: <E:\STM32 Codes\baremetal_dma\Debug\bw-output>
-Wed Feb 14 21:30:39 2024: command line received: <make -j12 all >
-Wed Feb 14 21:30:39 2024: initializing json file
-Wed Feb 14 21:30:39 2024: starting debug cycle
-Wed Feb 14 21:30:39 2024: process created with pid: 17288
-Wed Feb 14 21:30:39 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\make.exe>
-Wed Feb 14 21:30:39 2024: command line: <make -j12 all >
-Wed Feb 14 21:30:39 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
-Wed Feb 14 21:30:39 2024: isWow64: 0
-Wed Feb 14 21:30:39 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\make.exe with pid: 17288
-Wed Feb 14 21:30:39 2024: process created with pid: 10224
-Wed Feb 14 21:30:39 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\sh.exe>
-Wed Feb 14 21:30:39 2024: command line: <E:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624/tools/bin/sh.exe -c "make --no-print-directory main-build && make --no-print-directory post-build">
-Wed Feb 14 21:30:39 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
-Wed Feb 14 21:30:39 2024: isWow64: 0
-Wed Feb 14 21:30:39 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\sh.exe with pid: 10224
-Wed Feb 14 21:30:39 2024: process created with pid: 22584
-Wed Feb 14 21:30:39 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\sh.exe>
-Wed Feb 14 21:30:39 2024: command line: <sh --fs 0000000000000278>
-Wed Feb 14 21:30:39 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
-Wed Feb 14 21:30:39 2024: isWow64: 0
-Wed Feb 14 21:30:39 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\sh.exe with pid: 22584
-Wed Feb 14 21:30:39 2024: process created with pid: 28284
-Wed Feb 14 21:30:39 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\make.exe>
-Wed Feb 14 21:30:39 2024: command line: <make --no-print-directory main-build>
-Wed Feb 14 21:30:39 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
-Wed Feb 14 21:30:39 2024: isWow64: 0
-Wed Feb 14 21:30:39 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\make.exe with pid: 28284
-Wed Feb 14 21:30:40 2024: process created with pid: 21928
-Wed Feb 14 21:30:40 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin\arm-none-eabi-size.exe>
-Wed Feb 14 21:30:40 2024: command line: <arm-none-eabi-size baremetal_dma.elf>
-Wed Feb 14 21:30:40 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
-Wed Feb 14 21:30:40 2024: isWow64: 0
-Wed Feb 14 21:30:40 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin\arm-none-eabi-size.exe with pid: 21928
-Wed Feb 14 21:30:40 2024: process with pid 21928 exit with code: 0 (0x0)
-Wed Feb 14 21:30:40 2024: process created with pid: 2352
-Wed Feb 14 21:30:40 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe>
-Wed Feb 14 21:30:40 2024: command line: <echo "Finished building: default.size.stdout">
-Wed Feb 14 21:30:40 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
-Wed Feb 14 21:30:40 2024: isWow64: 0
-Wed Feb 14 21:30:40 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe with pid: 2352
-Wed Feb 14 21:30:40 2024: process with pid 2352 exit with code: 0 (0x0)
-Wed Feb 14 21:30:40 2024: process created with pid: 21228
-Wed Feb 14 21:30:40 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe>
-Wed Feb 14 21:30:40 2024: command line: <echo " ">
-Wed Feb 14 21:30:40 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
-Wed Feb 14 21:30:40 2024: isWow64: 0
-Wed Feb 14 21:30:40 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe with pid: 21228
-Wed Feb 14 21:30:40 2024: process with pid 21228 exit with code: 0 (0x0)
-Wed Feb 14 21:30:40 2024: process with pid 28284 exit with code: 0 (0x0)
-Wed Feb 14 21:30:40 2024: process with pid 22584 exit with code: 0 (0x0)
-Wed Feb 14 21:30:40 2024: process created with pid: 27580
-Wed Feb 14 21:30:40 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\make.exe>
-Wed Feb 14 21:30:40 2024: command line: <make --no-print-directory post-build>
-Wed Feb 14 21:30:40 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
-Wed Feb 14 21:30:40 2024: isWow64: 0
-Wed Feb 14 21:30:40 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\make.exe with pid: 27580
-Wed Feb 14 21:30:40 2024: process created with pid: 21756
-Wed Feb 14 21:30:40 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\sh.exe>
-Wed Feb 14 21:30:40 2024: command line: <E:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624/tools/bin/sh.exe -c "sonar-scanner.bat -D\"sonar.organization=avg97\" -D\"sonar.projectKey=avg97_dma\" -D\"sonar.sources=.\" -D\"sonar.cfamily.build-wrapper-output=bw-output\" -D\"sonar.host.url=https://sonarcloud.io\"">
-Wed Feb 14 21:30:40 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
-Wed Feb 14 21:30:40 2024: isWow64: 0
-Wed Feb 14 21:30:40 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\sh.exe with pid: 21756
-Wed Feb 14 21:30:40 2024: process created with pid: 11084
-Wed Feb 14 21:30:40 2024: image path name: <C:\WINDOWS\system32\cmd.exe>
-Wed Feb 14 21:30:40 2024: command line: <C:\WINDOWS\system32\cmd.exe /c sonar-scanner.bat -Dsonar.organization=avg97 -Dsonar.projectKey=avg97_dma -Dsonar.sources=. -Dsonar.cfamily.build-wrapper-output=bw-output -Dsonar.host.url=https://sonarcloud.io>
-Wed Feb 14 21:30:40 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
-Wed Feb 14 21:30:40 2024: isWow64: 0
-Wed Feb 14 21:30:40 2024: skipping process C:\Windows\System32\cmd.exe with pid: 11084
-Wed Feb 14 21:30:40 2024: process created with pid: 23856
-Wed Feb 14 21:30:40 2024: image path name: <E:\sonar-scanner-5.0.1.3006-windows\jre\bin\java.exe>
-Wed Feb 14 21:30:40 2024: command line: <"E:\sonar-scanner-5.0.1.3006-windows\bin\..\jre\bin\java.exe"  -Djava.awt.headless=true   -cp "E:\sonar-scanner-5.0.1.3006-windows\bin\..\lib\sonar-scanner-cli-5.0.1.3006.jar" "-Dscanner.home=E:\sonar-scanner-5.0.1.3006-windows\bin\.." "-Dproject.home=E:\STM32 Codes\baremetal_dma\Debug" org.sonarsource.scanner.cli.Main -Dsonar.organization=avg97 -Dsonar.projectKey=avg97_dma -Dsonar.sources=. -Dsonar.cfamily.build-wrapper-output=bw-output -Dsonar.host.url=https://sonarcloud.io>
-Wed Feb 14 21:30:40 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
-Wed Feb 14 21:30:40 2024: isWow64: 0
-Wed Feb 14 21:30:40 2024: skipping process E:\sonar-scanner-5.0.1.3006-windows\jre\bin\java.exe with pid: 23856
-Wed Feb 14 21:31:04 2024: process created with pid: 19076
-Wed Feb 14 21:31:04 2024: image path name: <C:\Windows\System32\where.exe>
-Wed Feb 14 21:31:04 2024: command line: <C:\Windows\System32\where.exe node>
-Wed Feb 14 21:31:04 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
-Wed Feb 14 21:31:04 2024: isWow64: 0
-Wed Feb 14 21:31:04 2024: skipping process C:\Windows\System32\where.exe with pid: 19076
-Wed Feb 14 21:31:04 2024: process created with pid: 15556
-Wed Feb 14 21:31:04 2024: image path name: <\??\C:\WINDOWS\system32\conhost.exe>
-Wed Feb 14 21:31:04 2024: command line: <\??\C:\WINDOWS\system32\conhost.exe 0x4>
-Wed Feb 14 21:31:04 2024: working directory: <C:\WINDOWS>
-Wed Feb 14 21:31:04 2024: isWow64: 0
-Wed Feb 14 21:31:04 2024 - ERROR: error getting long path name: 2
-Wed Feb 14 21:31:04 2024: skipping process \??\C:\WINDOWS\system32\conhost.exe with pid: 15556
-Wed Feb 14 21:31:04 2024: process with pid 19076 exit with code: 0 (0x0)
-Wed Feb 14 21:31:04 2024: process with pid 15556 exit with code: 0 (0x0)
-Wed Feb 14 21:31:04 2024: process created with pid: 28160
-Wed Feb 14 21:31:04 2024: image path name: <C:\Program Files\nodejs\node.exe>
-Wed Feb 14 21:31:04 2024: command line: <"C:\Program Files\nodejs\node.exe" -v>
-Wed Feb 14 21:31:04 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
-Wed Feb 14 21:31:04 2024: isWow64: 0
-Wed Feb 14 21:31:04 2024: skipping process C:\Program Files\nodejs\node.exe with pid: 28160
-Wed Feb 14 21:31:04 2024: process created with pid: 17948
-Wed Feb 14 21:31:04 2024: image path name: <\??\C:\WINDOWS\system32\conhost.exe>
-Wed Feb 14 21:31:04 2024: command line: <\??\C:\WINDOWS\system32\conhost.exe 0x4>
-Wed Feb 14 21:31:04 2024: working directory: <C:\WINDOWS>
-Wed Feb 14 21:31:04 2024: isWow64: 0
-Wed Feb 14 21:31:04 2024 - ERROR: error getting long path name: 2
-Wed Feb 14 21:31:04 2024: skipping process \??\C:\WINDOWS\system32\conhost.exe with pid: 17948
-Wed Feb 14 21:31:04 2024: process with pid 28160 exit with code: 0 (0x0)
-Wed Feb 14 21:31:04 2024: process with pid 17948 exit with code: 0 (0x0)
-Wed Feb 14 21:31:08 2024: process created with pid: 24696
-Wed Feb 14 21:31:08 2024: image path name: <C:\Program Files\dotnet\dotnet.exe>
-Wed Feb 14 21:31:08 2024: command line: <"C:\Program Files\dotnet\dotnet.exe" build -version>
-Wed Feb 14 21:31:08 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
-Wed Feb 14 21:31:08 2024: isWow64: 0
-Wed Feb 14 21:31:08 2024: skipping process C:\Program Files\dotnet\dotnet.exe with pid: 24696
-Wed Feb 14 21:31:08 2024: process created with pid: 18512
-Wed Feb 14 21:31:08 2024: image path name: <\??\C:\WINDOWS\system32\conhost.exe>
-Wed Feb 14 21:31:08 2024: command line: <\??\C:\WINDOWS\system32\conhost.exe 0x4>
-Wed Feb 14 21:31:08 2024: working directory: <C:\WINDOWS>
-Wed Feb 14 21:31:08 2024: isWow64: 0
-Wed Feb 14 21:31:08 2024 - ERROR: error getting long path name: 2
-Wed Feb 14 21:31:08 2024: skipping process \??\C:\WINDOWS\system32\conhost.exe with pid: 18512
-Wed Feb 14 21:31:08 2024: process with pid 24696 exit with code: 2147516561 (0x80008091)
-Wed Feb 14 21:31:08 2024: process with pid 18512 exit with code: 0 (0x0)
-Wed Feb 14 21:31:10 2024: process with pid 23856 exit with code: 0 (0x0)
-Wed Feb 14 21:31:10 2024: process with pid 11084 exit with code: 0 (0x0)
-Wed Feb 14 21:31:10 2024: process with pid 21756 exit with code: 0 (0x0)
-Wed Feb 14 21:31:10 2024: process created with pid: 28572
-Wed Feb 14 21:31:10 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe>
-Wed Feb 14 21:31:10 2024: command line: <echo " ">
-Wed Feb 14 21:31:10 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
-Wed Feb 14 21:31:10 2024: isWow64: 0
-Wed Feb 14 21:31:10 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe with pid: 28572
-Wed Feb 14 21:31:10 2024: process with pid 28572 exit with code: 0 (0x0)
-Wed Feb 14 21:31:10 2024: process with pid 27580 exit with code: 0 (0x0)
-Wed Feb 14 21:31:10 2024: process with pid 10224 exit with code: 0 (0x0)
-Wed Feb 14 21:31:10 2024: process with pid 17288 exit with code: 0 (0x0)
-Wed Feb 14 21:31:10 2024: finalizing json file
+Wed Feb 14 21:52:26 2024: build-wrapper, version 6.52.1 (win-x86-64)
+Wed Feb 14 21:52:26 2024: isWow64: 0
+Wed Feb 14 21:52:26 2024: windows version: 10.0, service pack: 0.0, build number: 22631, product type: 1
+Wed Feb 14 21:52:26 2024: current directory: E:\STM32 Codes\baremetal_dma\Debug
+Wed Feb 14 21:52:26 2024: cwd: <E:\STM32 Codes\baremetal_dma\Debug>
+Wed Feb 14 21:52:26 2024: out-dir absolute path: <E:\STM32 Codes\baremetal_dma\Debug\bw-output>
+Wed Feb 14 21:52:26 2024: command line received: <make -j12 all >
+Wed Feb 14 21:52:26 2024: initializing json file
+Wed Feb 14 21:52:26 2024: starting debug cycle
+Wed Feb 14 21:52:26 2024: process created with pid: 24416
+Wed Feb 14 21:52:26 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\make.exe>
+Wed Feb 14 21:52:26 2024: command line: <make -j12 all >
+Wed Feb 14 21:52:26 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:26 2024: isWow64: 0
+Wed Feb 14 21:52:26 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\make.exe with pid: 24416
+Wed Feb 14 21:52:26 2024: process created with pid: 28036
+Wed Feb 14 21:52:26 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\sh.exe>
+Wed Feb 14 21:52:26 2024: command line: <E:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624/tools/bin/sh.exe -c "arm-none-eabi-gcc \"../Src/syscalls.c\" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F411CEUx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF\"Src/syscalls.d\" -MT\"Src/syscalls.o\" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o \"Src/syscalls.o\"">
+Wed Feb 14 21:52:26 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:26 2024: isWow64: 0
+Wed Feb 14 21:52:26 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\sh.exe with pid: 28036
+Wed Feb 14 21:52:26 2024: process created with pid: 17188
+Wed Feb 14 21:52:26 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin\arm-none-eabi-gcc.exe>
+Wed Feb 14 21:52:26 2024: command line: <arm-none-eabi-gcc ../Src/syscalls.c -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F411CEUx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MFSrc/syscalls.d -MTSrc/syscalls.o --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o Src/syscalls.o>
+Wed Feb 14 21:52:26 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:26 2024: isWow64: 0
+Wed Feb 14 21:52:26 2024: VirtualQueryEx 0000000000010BD6
+Wed Feb 14 21:52:26 2024: 	Offset 3030
+Wed Feb 14 21:52:26 2024: 	VirtualQueryEx Base	BaseAddr: 0000000000010000	AllocationBase: 0000000000010000	AllocationProtect: 0x4	Protect: 0x4	State: 0x1000	RegionSize: 131072	Type: 0x20000
+Wed Feb 14 21:52:26 2024: Read environment of size 4271
+Wed Feb 14 21:52:26 2024: env0: <=::=::\>
+Wed Feb 14 21:52:26 2024: env1: <ProgramW6432=C:\Program Files>
+Wed Feb 14 21:52:26 2024: env2: <RegionCode=APJ>
+Wed Feb 14 21:52:26 2024: env3: <LOGONSERVER=\\LAPTOP-AVISHEK>
+Wed Feb 14 21:52:26 2024: env4: <ALLUSERSPROFILE=C:\ProgramData>
+Wed Feb 14 21:52:26 2024: env5: <ANDROID_SDK_HOME=C:\Android>
+Wed Feb 14 21:52:26 2024: env6: <STM32CubeMX_PATH=E:\STM32CubeMX>
+Wed Feb 14 21:52:26 2024: env7: <SHLVL=1>
+Wed Feb 14 21:52:26 2024: env8: <CWD=E:\STM32 Codes\baremetal_dma\Debug>
+Wed Feb 14 21:52:26 2024: env9: <ProgramData=C:\ProgramData>
+Wed Feb 14 21:52:26 2024: env10: <VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\>
+Wed Feb 14 21:52:26 2024: env11: <ChocolateyLastPathUpdate=133465802314497843>
+Wed Feb 14 21:52:26 2024: env12: <PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD>
+Wed Feb 14 21:52:26 2024: env13: <ProgramFiles(x86)=C:\Program Files (x86)>
+Wed Feb 14 21:52:26 2024: env14: <MAKEFLAGS= -j12 --jobserver-auth=gmake_semaphore_24416>
+Wed Feb 14 21:52:26 2024: env15: <PROCESSOR_REVISION=6001>
+Wed Feb 14 21:52:26 2024: env16: <ProgramFiles=C:\Program Files>
+Wed Feb 14 21:52:26 2024: env17: <PUBLIC=C:\Users\Public>
+Wed Feb 14 21:52:26 2024: env18: <SONAR_TOKEN=3170807490420235531ed7c0434ceefe46cbd2a5>
+Wed Feb 14 21:52:26 2024: env19: <JD2_HOME=C:\Users\avish\AppData\Local\JDownloader 2.0>
+Wed Feb 14 21:52:26 2024: env20: <USERDOMAIN=LAPTOP-AVISHEK>
+Wed Feb 14 21:52:26 2024: env21: <PROCESSOR_ARCHITECTURE=AMD64>
+Wed Feb 14 21:52:26 2024: env22: <SystemRoot=C:\WINDOWS>
+Wed Feb 14 21:52:26 2024: env23: <CYGWIN=wincmdln>
+Wed Feb 14 21:52:26 2024: env24: <EFC_6624=1>
+Wed Feb 14 21:52:26 2024: env25: <TEMP=C:\Users\avish\AppData\Local\Temp>
+Wed Feb 14 21:52:26 2024: env26: <asl.log=Destination=file>
+Wed Feb 14 21:52:26 2024: env27: <OneDriveConsumer=C:\Users\avish\OneDrive>
+Wed Feb 14 21:52:26 2024: env28: <USERNAME=avish>
+Wed Feb 14 21:52:26 2024: env29: <DriverData=C:\Windows\System32\Drivers\DriverData>
+Wed Feb 14 21:52:26 2024: env30: <LOCALAPPDATA=C:\Users\avish\AppData\Local>
+Wed Feb 14 21:52:26 2024: env31: <CommonProgramW6432=C:\Program Files\Common Files>
+Wed Feb 14 21:52:26 2024: env32: <SESSIONNAME=Console>
+Wed Feb 14 21:52:26 2024: env33: <PATH=E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin;E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin;E:/STM32CubeIDE_1.14.0/STM32CubeIDE//plugins/com.st.stm32cube.ide.jre.win64_3.1.0.202310310920/jre/bin/server;E:/STM32CubeIDE_1.14.0/STM32CubeIDE//plugins/com.st.stm32cube.ide.jre.win64_3.1.0.202310310920/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\OpenLogic\jdk-11.0.21.9-hotspot\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Android;C:\Windows\System32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;E:\MATLAB\R2023b\runtime\win64;E:\MATLAB\R2023b\bin;C:\ST\STM32CubeCLT;C:\ST\STM32CubeCLT\STM32CubeProgrammer\bin;C:\ST\STM32CubeCLT\STLink-gdb-server\bin;C:\ST\STM32CubeCLT\GNU-tools-for-STM32\bin;C:\Program Files (x86)\STMicroelectronics\stlink_server;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;E:\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-rel1\bin;C:\Users\avish\anaconda3;C:\Users\avish\anaconda3\Library\mingw-w64\bin;C:\Users\avish\anaconda3\Library\usr\bin;C:\Users\avish\anaconda3\Library\bin;C:\Users\avish\anaconda3\Scripts;C:\Users\avish\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\avish\AppData\Local\Programs\Python\Python39\;C:\Users\avish\AppData\Local\Microsoft\WindowsApps;C:\Users\avish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\avish\.fly\bin;C:\Users\avish\zephyrproject\.venv\Scripts;E:\sonar-scanner-5.0.1.3006-windows\bin;E:\build-wrapper-win-x86;C:\Users\avish\AppData\Roaming\npm;E:\STM32CubeIDE_1.14.0\STM32CubeIDE>
+Wed Feb 14 21:52:26 2024: env34: <MAKELEVEL=1>
+Wed Feb 14 21:52:26 2024: env35: <OnlineServices=Online Services>
+Wed Feb 14 21:52:26 2024: env36: <OS=Windows_NT>
+Wed Feb 14 21:52:26 2024: env37: <SystemDrive=C:>
+Wed Feb 14 21:52:26 2024: env38: <windir=C:\WINDOWS>
+Wed Feb 14 21:52:26 2024: env39: <NUMBER_OF_PROCESSORS=12>
+Wed Feb 14 21:52:26 2024: env40: <USERPROFILE=C:\Users\avish>
+Wed Feb 14 21:52:26 2024: env41: <AMDRMSDKPATH=C:\Program Files\AMD\RyzenMasterSDK\>
+Wed Feb 14 21:52:26 2024: env42: <TMP=C:\Users\avish\AppData\Local\Temp>
+Wed Feb 14 21:52:26 2024: env43: <APPDATA=C:\Users\avish\AppData\Roaming>
+Wed Feb 14 21:52:26 2024: env44: <ChocolateyInstall=C:\ProgramData\chocolatey>
+Wed Feb 14 21:52:26 2024: env45: <PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW>
+Wed Feb 14 21:52:26 2024: env46: <CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files>
+Wed Feb 14 21:52:26 2024: env47: <CommonProgramFiles=C:\Program Files\Common Files>
+Wed Feb 14 21:52:26 2024: env48: <platformcode=KV>
+Wed Feb 14 21:52:26 2024: env49: <USERDOMAIN_ROAMINGPROFILE=LAPTOP-AVISHEK>
+Wed Feb 14 21:52:26 2024: env50: <OneDrive=C:\Users\avish\OneDrive>
+Wed Feb 14 21:52:26 2024: env51: <_NO_DEBUG_HEAP=1>
+Wed Feb 14 21:52:26 2024: env52: <compiler_prefix=arm-none-eabi->
+Wed Feb 14 21:52:26 2024: env53: <HOMEDRIVE=C:>
+Wed Feb 14 21:52:26 2024: env54: <JAVA_HOME=C:\Program Files\OpenLogic\jdk-11.0.21.9-hotspot\>
+Wed Feb 14 21:52:26 2024: env55: <PWD=E:/STM32 Codes/baremetal_dma/Debug>
+Wed Feb 14 21:52:26 2024: env56: <COMPUTERNAME=LAPTOP-AVISHEK>
+Wed Feb 14 21:52:26 2024: env57: <HOMEPATH=\Users\avish>
+Wed Feb 14 21:52:26 2024: env58: <MFLAGS=-j12 --jobserver-auth=gmake_semaphore_24416>
+Wed Feb 14 21:52:26 2024: env59: <PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules>
+Wed Feb 14 21:52:26 2024: env60: <VBOX_HWVIRTEX_IGNORE_SVM_IN_USE=1>
+Wed Feb 14 21:52:26 2024: env61: <PROCESSOR_LEVEL=23>
+Wed Feb 14 21:52:26 2024: env62: <ComSpec=C:\WINDOWS\system32\cmd.exe>
+Wed Feb 14 21:52:26 2024: process created with pid: 5664
+Wed Feb 14 21:52:26 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin\..\lib\gcc\arm-none-eabi\11.3.1\cc1.exe>
+Wed Feb 14 21:52:26 2024: command line: <E:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/cc1.exe -isystem =/include/newlib-nano -quiet -I ../Inc -imultilib thumb/v7e-m+fp/hard -iprefix E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/ -isysroot E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin/../arm-none-eabi -MMD Src/syscalls.d -MF Src/syscalls.d -MP -MT Src/syscalls.o -dD -D__USES_INITFINI__ -D DEBUG -D STM32 -D STM32F4 -D STM32F411CEUx ../Src/syscalls.c -quiet -dumpdir Src/ -dumpbase syscalls.c -dumpbase-ext .c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -g3 -O0 -Wall -std=gnu11 -ffunction-sections -fdata-sections -fstack-usage -fcyclomatic-complexity -o C:\Users\avish\AppData\Local\Temp\ccyzY7hL.s>
+Wed Feb 14 21:52:26 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:26 2024: isWow64: 0
+Wed Feb 14 21:52:26 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin\..\lib\gcc\arm-none-eabi\11.3.1\cc1.exe with pid: 5664
+Wed Feb 14 21:52:26 2024: process with pid 5664 exit with code: 0 (0x0)
+Wed Feb 14 21:52:26 2024: process created with pid: 17580
+Wed Feb 14 21:52:26 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin\..\lib\gcc\arm-none-eabi\11.3.1\..\..\..\..\arm-none-eabi\bin\as.exe>
+Wed Feb 14 21:52:26 2024: command line: <E:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/as.exe -I ../Inc -march=armv7e-m -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o Src/syscalls.o C:\Users\avish\AppData\Local\Temp\ccyzY7hL.s>
+Wed Feb 14 21:52:26 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:26 2024: isWow64: 0
+Wed Feb 14 21:52:26 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin\..\lib\gcc\arm-none-eabi\11.3.1\..\..\..\..\arm-none-eabi\bin\as.exe with pid: 17580
+Wed Feb 14 21:52:26 2024: process with pid 17580 exit with code: 0 (0x0)
+Wed Feb 14 21:52:26 2024: process with pid 17188 exit with code: 0 (0x0)
+Wed Feb 14 21:52:26 2024: process with pid 28036 exit with code: 0 (0x0)
+Wed Feb 14 21:52:26 2024: process created with pid: 12412
+Wed Feb 14 21:52:26 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\sh.exe>
+Wed Feb 14 21:52:26 2024: command line: <E:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624/tools/bin/sh.exe -c "arm-none-eabi-gcc -o \"baremetal_dma.elf\" @\"objects.list\"   -mcpu=cortex-m4 -T\"E:\STM32 Codes\baremetal_dma\STM32F411CEUX_FLASH.ld\" --specs=nosys.specs -Wl,-Map=\"baremetal_dma.map\" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group">
+Wed Feb 14 21:52:26 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:26 2024: isWow64: 0
+Wed Feb 14 21:52:26 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\sh.exe with pid: 12412
+Wed Feb 14 21:52:26 2024: process created with pid: 10548
+Wed Feb 14 21:52:26 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin\arm-none-eabi-gcc.exe>
+Wed Feb 14 21:52:26 2024: command line: <arm-none-eabi-gcc -o baremetal_dma.elf @objects.list -mcpu=cortex-m4 "-TE:\STM32 Codes\baremetal_dma\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map=baremetal_dma.map -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group>
+Wed Feb 14 21:52:26 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:26 2024: isWow64: 0
+Wed Feb 14 21:52:26 2024: content of E:\STM32 Codes\baremetal_dma\Debug\\objects.list: <"./Src/main.o"
+"./Src/syscalls.o"
+"./Src/sysmem.o"
+"./Src/text.o"
+"./Startup/startup_stm32f411ceux.o"
+>
+Wed Feb 14 21:52:26 2024: VirtualQueryEx 0000000000010B9E
+Wed Feb 14 21:52:26 2024: 	Offset 2974
+Wed Feb 14 21:52:26 2024: 	VirtualQueryEx Base	BaseAddr: 0000000000010000	AllocationBase: 0000000000010000	AllocationProtect: 0x4	Protect: 0x4	State: 0x1000	RegionSize: 131072	Type: 0x20000
+Wed Feb 14 21:52:26 2024: Read environment of size 4271
+Wed Feb 14 21:52:26 2024: env0: <=::=::\>
+Wed Feb 14 21:52:26 2024: env1: <ProgramW6432=C:\Program Files>
+Wed Feb 14 21:52:26 2024: env2: <RegionCode=APJ>
+Wed Feb 14 21:52:26 2024: env3: <LOGONSERVER=\\LAPTOP-AVISHEK>
+Wed Feb 14 21:52:26 2024: env4: <ALLUSERSPROFILE=C:\ProgramData>
+Wed Feb 14 21:52:26 2024: env5: <ANDROID_SDK_HOME=C:\Android>
+Wed Feb 14 21:52:26 2024: env6: <STM32CubeMX_PATH=E:\STM32CubeMX>
+Wed Feb 14 21:52:26 2024: env7: <SHLVL=1>
+Wed Feb 14 21:52:26 2024: env8: <CWD=E:\STM32 Codes\baremetal_dma\Debug>
+Wed Feb 14 21:52:26 2024: env9: <ProgramData=C:\ProgramData>
+Wed Feb 14 21:52:26 2024: env10: <VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\>
+Wed Feb 14 21:52:26 2024: env11: <ChocolateyLastPathUpdate=133465802314497843>
+Wed Feb 14 21:52:26 2024: env12: <PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD>
+Wed Feb 14 21:52:26 2024: env13: <ProgramFiles(x86)=C:\Program Files (x86)>
+Wed Feb 14 21:52:26 2024: env14: <MAKEFLAGS= -j12 --jobserver-auth=gmake_semaphore_24416>
+Wed Feb 14 21:52:26 2024: env15: <PROCESSOR_REVISION=6001>
+Wed Feb 14 21:52:26 2024: env16: <ProgramFiles=C:\Program Files>
+Wed Feb 14 21:52:26 2024: env17: <PUBLIC=C:\Users\Public>
+Wed Feb 14 21:52:26 2024: env18: <SONAR_TOKEN=3170807490420235531ed7c0434ceefe46cbd2a5>
+Wed Feb 14 21:52:26 2024: env19: <JD2_HOME=C:\Users\avish\AppData\Local\JDownloader 2.0>
+Wed Feb 14 21:52:26 2024: env20: <USERDOMAIN=LAPTOP-AVISHEK>
+Wed Feb 14 21:52:26 2024: env21: <PROCESSOR_ARCHITECTURE=AMD64>
+Wed Feb 14 21:52:26 2024: env22: <SystemRoot=C:\WINDOWS>
+Wed Feb 14 21:52:26 2024: env23: <CYGWIN=wincmdln>
+Wed Feb 14 21:52:26 2024: env24: <EFC_6624=1>
+Wed Feb 14 21:52:26 2024: env25: <TEMP=C:\Users\avish\AppData\Local\Temp>
+Wed Feb 14 21:52:26 2024: env26: <asl.log=Destination=file>
+Wed Feb 14 21:52:26 2024: env27: <OneDriveConsumer=C:\Users\avish\OneDrive>
+Wed Feb 14 21:52:26 2024: env28: <USERNAME=avish>
+Wed Feb 14 21:52:26 2024: env29: <DriverData=C:\Windows\System32\Drivers\DriverData>
+Wed Feb 14 21:52:26 2024: env30: <LOCALAPPDATA=C:\Users\avish\AppData\Local>
+Wed Feb 14 21:52:26 2024: env31: <CommonProgramW6432=C:\Program Files\Common Files>
+Wed Feb 14 21:52:26 2024: env32: <SESSIONNAME=Console>
+Wed Feb 14 21:52:26 2024: env33: <PATH=E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin;E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin;E:/STM32CubeIDE_1.14.0/STM32CubeIDE//plugins/com.st.stm32cube.ide.jre.win64_3.1.0.202310310920/jre/bin/server;E:/STM32CubeIDE_1.14.0/STM32CubeIDE//plugins/com.st.stm32cube.ide.jre.win64_3.1.0.202310310920/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\OpenLogic\jdk-11.0.21.9-hotspot\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Android;C:\Windows\System32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;E:\MATLAB\R2023b\runtime\win64;E:\MATLAB\R2023b\bin;C:\ST\STM32CubeCLT;C:\ST\STM32CubeCLT\STM32CubeProgrammer\bin;C:\ST\STM32CubeCLT\STLink-gdb-server\bin;C:\ST\STM32CubeCLT\GNU-tools-for-STM32\bin;C:\Program Files (x86)\STMicroelectronics\stlink_server;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;E:\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-rel1\bin;C:\Users\avish\anaconda3;C:\Users\avish\anaconda3\Library\mingw-w64\bin;C:\Users\avish\anaconda3\Library\usr\bin;C:\Users\avish\anaconda3\Library\bin;C:\Users\avish\anaconda3\Scripts;C:\Users\avish\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\avish\AppData\Local\Programs\Python\Python39\;C:\Users\avish\AppData\Local\Microsoft\WindowsApps;C:\Users\avish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\avish\.fly\bin;C:\Users\avish\zephyrproject\.venv\Scripts;E:\sonar-scanner-5.0.1.3006-windows\bin;E:\build-wrapper-win-x86;C:\Users\avish\AppData\Roaming\npm;E:\STM32CubeIDE_1.14.0\STM32CubeIDE>
+Wed Feb 14 21:52:26 2024: env34: <MAKELEVEL=1>
+Wed Feb 14 21:52:26 2024: env35: <OnlineServices=Online Services>
+Wed Feb 14 21:52:26 2024: env36: <OS=Windows_NT>
+Wed Feb 14 21:52:26 2024: env37: <SystemDrive=C:>
+Wed Feb 14 21:52:26 2024: env38: <windir=C:\WINDOWS>
+Wed Feb 14 21:52:26 2024: env39: <NUMBER_OF_PROCESSORS=12>
+Wed Feb 14 21:52:26 2024: env40: <USERPROFILE=C:\Users\avish>
+Wed Feb 14 21:52:26 2024: env41: <AMDRMSDKPATH=C:\Program Files\AMD\RyzenMasterSDK\>
+Wed Feb 14 21:52:26 2024: env42: <TMP=C:\Users\avish\AppData\Local\Temp>
+Wed Feb 14 21:52:26 2024: env43: <APPDATA=C:\Users\avish\AppData\Roaming>
+Wed Feb 14 21:52:26 2024: env44: <ChocolateyInstall=C:\ProgramData\chocolatey>
+Wed Feb 14 21:52:26 2024: env45: <PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW>
+Wed Feb 14 21:52:26 2024: env46: <CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files>
+Wed Feb 14 21:52:26 2024: env47: <CommonProgramFiles=C:\Program Files\Common Files>
+Wed Feb 14 21:52:26 2024: env48: <platformcode=KV>
+Wed Feb 14 21:52:26 2024: env49: <USERDOMAIN_ROAMINGPROFILE=LAPTOP-AVISHEK>
+Wed Feb 14 21:52:26 2024: env50: <OneDrive=C:\Users\avish\OneDrive>
+Wed Feb 14 21:52:26 2024: env51: <_NO_DEBUG_HEAP=1>
+Wed Feb 14 21:52:26 2024: env52: <compiler_prefix=arm-none-eabi->
+Wed Feb 14 21:52:26 2024: env53: <HOMEDRIVE=C:>
+Wed Feb 14 21:52:26 2024: env54: <JAVA_HOME=C:\Program Files\OpenLogic\jdk-11.0.21.9-hotspot\>
+Wed Feb 14 21:52:26 2024: env55: <PWD=E:/STM32 Codes/baremetal_dma/Debug>
+Wed Feb 14 21:52:26 2024: env56: <COMPUTERNAME=LAPTOP-AVISHEK>
+Wed Feb 14 21:52:26 2024: env57: <HOMEPATH=\Users\avish>
+Wed Feb 14 21:52:26 2024: env58: <MFLAGS=-j12 --jobserver-auth=gmake_semaphore_24416>
+Wed Feb 14 21:52:26 2024: env59: <PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules>
+Wed Feb 14 21:52:26 2024: env60: <VBOX_HWVIRTEX_IGNORE_SVM_IN_USE=1>
+Wed Feb 14 21:52:26 2024: env61: <PROCESSOR_LEVEL=23>
+Wed Feb 14 21:52:26 2024: env62: <ComSpec=C:\WINDOWS\system32\cmd.exe>
+Wed Feb 14 21:52:26 2024: process created with pid: 27800
+Wed Feb 14 21:52:26 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin\..\lib\gcc\arm-none-eabi\11.3.1\collect2.exe>
+Wed Feb 14 21:52:26 2024: command line: <E:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/collect2.exe -plugin E:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/liblto_plugin.dll -plugin-opt=E:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\avish\AppData\Local\Temp\ccezhhs5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin/../arm-none-eabi -Bstatic -X -o baremetal_dma.elf E:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crti.o E:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtbegin.o E:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o -LE:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard -LE:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard -LE:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard -LE:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1 -LE:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc -LE:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib -LE:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../arm-none-eabi/lib @C:\Users\avish\AppData\Local\Temp\ccAXPaNZ --start-group -lgcc -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group E:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtend.o E:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtn.o -T "E:\STM32 Codes\baremetal_dma\STM32F411CEUX_FLASH.ld">
+Wed Feb 14 21:52:26 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:26 2024: isWow64: 0
+Wed Feb 14 21:52:26 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin\..\lib\gcc\arm-none-eabi\11.3.1\collect2.exe with pid: 27800
+Wed Feb 14 21:52:26 2024: process created with pid: 13796
+Wed Feb 14 21:52:26 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin\..\lib\gcc\arm-none-eabi\11.3.1\..\..\..\..\arm-none-eabi\bin\ld.exe>
+Wed Feb 14 21:52:26 2024: command line: <E:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe @C:\Users\avish\AppData\Local\Temp\cc8Hhxz1>
+Wed Feb 14 21:52:26 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:26 2024: isWow64: 0
+Wed Feb 14 21:52:26 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin\..\lib\gcc\arm-none-eabi\11.3.1\..\..\..\..\arm-none-eabi\bin\ld.exe with pid: 13796
+Wed Feb 14 21:52:26 2024: process with pid 13796 exit with code: 0 (0x0)
+Wed Feb 14 21:52:26 2024: process with pid 27800 exit with code: 0 (0x0)
+Wed Feb 14 21:52:26 2024: process with pid 10548 exit with code: 0 (0x0)
+Wed Feb 14 21:52:26 2024: process with pid 12412 exit with code: 0 (0x0)
+Wed Feb 14 21:52:26 2024: process created with pid: 7220
+Wed Feb 14 21:52:26 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe>
+Wed Feb 14 21:52:26 2024: command line: <echo "Finished building target: baremetal_dma.elf">
+Wed Feb 14 21:52:26 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:26 2024: isWow64: 0
+Wed Feb 14 21:52:26 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe with pid: 7220
+Wed Feb 14 21:52:26 2024: process with pid 7220 exit with code: 0 (0x0)
+Wed Feb 14 21:52:26 2024: process created with pid: 19852
+Wed Feb 14 21:52:26 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe>
+Wed Feb 14 21:52:26 2024: command line: <echo " ">
+Wed Feb 14 21:52:26 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:26 2024: isWow64: 0
+Wed Feb 14 21:52:26 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe with pid: 19852
+Wed Feb 14 21:52:26 2024: process with pid 19852 exit with code: 0 (0x0)
+Wed Feb 14 21:52:26 2024: process created with pid: 21936
+Wed Feb 14 21:52:26 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin\arm-none-eabi-size.exe>
+Wed Feb 14 21:52:26 2024: command line: <arm-none-eabi-size baremetal_dma.elf>
+Wed Feb 14 21:52:26 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:26 2024: isWow64: 0
+Wed Feb 14 21:52:27 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin\arm-none-eabi-size.exe with pid: 21936
+Wed Feb 14 21:52:27 2024: process created with pid: 14976
+Wed Feb 14 21:52:27 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\sh.exe>
+Wed Feb 14 21:52:27 2024: command line: <E:/STM32CubeIDE_1.14.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624/tools/bin/sh.exe -c "arm-none-eabi-objdump -h -S baremetal_dma.elf  > \"baremetal_dma.list\"">
+Wed Feb 14 21:52:27 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:27 2024: isWow64: 0
+Wed Feb 14 21:52:27 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\sh.exe with pid: 14976
+Wed Feb 14 21:52:27 2024: process with pid 21936 exit with code: 0 (0x0)
+Wed Feb 14 21:52:27 2024: process created with pid: 28528
+Wed Feb 14 21:52:27 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe>
+Wed Feb 14 21:52:27 2024: command line: <echo "Finished building: default.size.stdout">
+Wed Feb 14 21:52:27 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:27 2024: isWow64: 0
+Wed Feb 14 21:52:27 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe with pid: 28528
+Wed Feb 14 21:52:27 2024: process with pid 28528 exit with code: 0 (0x0)
+Wed Feb 14 21:52:27 2024: process created with pid: 4292
+Wed Feb 14 21:52:27 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin\arm-none-eabi-objdump.exe>
+Wed Feb 14 21:52:27 2024: command line: <arm-none-eabi-objdump -h -S baremetal_dma.elf>
+Wed Feb 14 21:52:27 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:27 2024: isWow64: 0
+Wed Feb 14 21:52:27 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235\tools\bin\arm-none-eabi-objdump.exe with pid: 4292
+Wed Feb 14 21:52:27 2024: process created with pid: 11240
+Wed Feb 14 21:52:27 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe>
+Wed Feb 14 21:52:27 2024: command line: <echo " ">
+Wed Feb 14 21:52:27 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:27 2024: isWow64: 0
+Wed Feb 14 21:52:27 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe with pid: 11240
+Wed Feb 14 21:52:27 2024: process with pid 11240 exit with code: 0 (0x0)
+Wed Feb 14 21:52:27 2024: process with pid 4292 exit with code: 0 (0x0)
+Wed Feb 14 21:52:27 2024: process with pid 14976 exit with code: 0 (0x0)
+Wed Feb 14 21:52:27 2024: process created with pid: 26072
+Wed Feb 14 21:52:27 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe>
+Wed Feb 14 21:52:27 2024: command line: <echo "Finished building: baremetal_dma.list">
+Wed Feb 14 21:52:27 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:27 2024: isWow64: 0
+Wed Feb 14 21:52:27 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe with pid: 26072
+Wed Feb 14 21:52:27 2024: process with pid 26072 exit with code: 0 (0x0)
+Wed Feb 14 21:52:27 2024: process created with pid: 11200
+Wed Feb 14 21:52:27 2024: image path name: <E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe>
+Wed Feb 14 21:52:27 2024: command line: <echo " ">
+Wed Feb 14 21:52:27 2024: working directory: <E:\STM32 Codes\baremetal_dma\Debug\>
+Wed Feb 14 21:52:27 2024: isWow64: 0
+Wed Feb 14 21:52:27 2024: skipping process E:\STM32CubeIDE_1.14.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.make.win32_2.1.101.202401061624\tools\bin\echo.exe with pid: 11200
+Wed Feb 14 21:52:27 2024: process with pid 11200 exit with code: 0 (0x0)
+Wed Feb 14 21:52:27 2024: process with pid 24416 exit with code: 0 (0x0)
+Wed Feb 14 21:52:27 2024: finalizing json file
