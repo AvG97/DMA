@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1944771641342014700">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdint.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdint.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="E:\STM32 Codes\baremetal_dma\Src\main.h" line="11" column="0"/>
+        </error>
+        <error id="internalError" severity="error" msg="Bailing out from analysis: Checking file failed: Failed to execute addon &apos;&apos; - exitcode is 2" verbose="Bailing out from analysis: Checking file failed: Failed to execute addon &apos;&apos; - exitcode is 2: python.exe   --cli &quot;E:\STM32 Codes\baremetal_dma\check-cppcheck-build-dir\main.a1.23044.dump&quot;\012Output:\012\012unknown option --cli\015\012usage: python.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...\015\012Try `python -h&apos; for more information." file0="E:/STM32 Codes/baremetal_dma/Src/main.c">
+            <location file="E:\STM32 Codes\baremetal_dma\Src\main.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="38"/>
+    <functiondecl functionName="delay_ms" lineNumber="57"/>
+    <functiondecl functionName="led_init" lineNumber="62"/>
+    <functiondecl functionName="button_init" lineNumber="71"/>
+    <functiondecl functionName="dma1_init" lineNumber="88"/>
+    <functiondecl functionName="uart2_init" lineNumber="119"/>
+    <functiondecl functionName="EXTI15_10_IRQHandler" lineNumber="146"/>
+    <functiondecl functionName="USART2_IRQHandler" lineNumber="161"/>
+    <functiondecl functionName="DMA1_Stream5_IRQHandler" lineNumber="177"/>
+    <functiondecl functionName="DMA1_Stream6_IRQHandler" lineNumber="184"/>
+    <functioncall functionName="button_init"/>
+    <functioncall functionName="dma1_init"/>
+    <functioncall functionName="led_init"/>
+    <functioncall functionName="uart2_init"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,7 @@
+organization=avg97
+projectKey=avg97_dma
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.52778
+dashboardUrl=https://sonarcloud.io/dashboard?id=avg97_dma
+ceTaskId=AY2oWcBaMyjBE7VDtHGs
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AY2oWcBaMyjBE7VDtHGs

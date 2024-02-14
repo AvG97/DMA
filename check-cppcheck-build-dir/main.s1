@@ -1,0 +1,10 @@
+main call:[button_init,dma1_init,led_init,uart2_init]
+delay_ms
+led_init
+button_init call:[asm] noreturn:[asm]
+dma1_init global:[rx_data,rx_length,tx_data,tx_length] call:[asm] noreturn:[asm]
+uart2_init
+EXTI15_10_IRQHandler
+USART2_IRQHandler
+DMA1_Stream5_IRQHandler
+DMA1_Stream6_IRQHandler

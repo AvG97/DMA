@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.13.0"/>
+    <errors>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdint.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdint.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd-MM-yyyy">
+            <location file="Src\main.h" line="11"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;sys/stat.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;sys/stat.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="24"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdlib.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdlib.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="25"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;errno.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;errno.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="26"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdio.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdio.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="27"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;signal.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;signal.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="28"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;time.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;time.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="29"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;sys/time.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;sys/time.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="30"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;sys/times.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;sys/times.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="31"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &amp;#039;ptr&amp;#039; can be declared as pointer to const" verbose="Parameter &amp;#039;ptr&amp;#039; can be declared as pointer to const" cwe="398" file0="Src/syscalls.c" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="110"/>
+        </error>
+        <error id="threadsafety-unsafe-call" severity="warning" msg="env is MT-unsafe" verbose="env is MT-unsafe" file0="Src/syscalls.c" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="200"/>
+        </error>
+        <error id="threadsafety-unsafe-call" severity="warning" msg="env is MT-unsafe" verbose="env is MT-unsafe" file0="Src/syscalls.c" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="204"/>
+        </error>
+        <error id="y2038-unsafe-call" severity="warning" msg="stat is Y2038-unsafe" verbose="stat is Y2038-unsafe" file0="Src/syscalls.c" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="130"/>
+        </error>
+        <error id="y2038-unsafe-call" severity="warning" msg="stat is Y2038-unsafe" verbose="stat is Y2038-unsafe" file0="Src/syscalls.c" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="179"/>
+        </error>
+        <error id="internalError" severity="error" msg="Bailing out from analysis: Checking file failed: Failed to execute addon &amp;#039;&amp;#039; - exitcode is 2" verbose="Bailing out from analysis: Checking file failed: Failed to execute addon &amp;#039;&amp;#039; - exitcode is 2: python.exe   --cli &amp;quot;E:\STM32 Codes\baremetal_dma\check-cppcheck-build-dir\syscalls.a1.23044.dump&amp;quot;&#10;Output:&#10;&#10;unknown option --cli&#13;&#10;usage: python.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...&#13;&#10;Try `python -h&amp;#039; for more information." file0="Src/syscalls.c" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="0"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_close&amp;#039; is never used." verbose="The function &amp;#039;_close&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="123"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_execve&amp;#039; is never used." verbose="The function &amp;#039;_execve&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="200"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_exit&amp;#039; is never used." verbose="The function &amp;#039;_exit&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="91"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_fork&amp;#039; is never used." verbose="The function &amp;#039;_fork&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="194"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_fstat&amp;#039; is never used." verbose="The function &amp;#039;_fstat&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="130"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_getpid&amp;#039; is never used." verbose="The function &amp;#039;_getpid&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="78"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_isatty&amp;#039; is never used." verbose="The function &amp;#039;_isatty&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="137"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_link&amp;#039; is never used." verbose="The function &amp;#039;_link&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="186"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_lseek&amp;#039; is never used." verbose="The function &amp;#039;_lseek&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="143"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_open&amp;#039; is never used." verbose="The function &amp;#039;_open&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="151"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_read&amp;#039; is never used." verbose="The function &amp;#039;_read&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="97"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_stat&amp;#039; is never used." verbose="The function &amp;#039;_stat&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="179"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_times&amp;#039; is never used." verbose="The function &amp;#039;_times&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="173"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_unlink&amp;#039; is never used." verbose="The function &amp;#039;_unlink&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="166"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_wait&amp;#039; is never used." verbose="The function &amp;#039;_wait&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="159"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_write&amp;#039; is never used." verbose="The function &amp;#039;_write&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="110"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;initialise_monitor_handles&amp;#039; is never used." verbose="The function &amp;#039;initialise_monitor_handles&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\syscalls.c" line="74"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;errno.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;errno.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd-MM-yyyy">
+            <location file="Src\sysmem.c" line="24"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdint.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdint.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd-MM-yyyy">
+            <location file="Src\sysmem.c" line="25"/>
+        </error>
+        <error id="internalError" severity="error" msg="Bailing out from analysis: Checking file failed: Failed to execute addon &amp;#039;&amp;#039; - exitcode is 2" verbose="Bailing out from analysis: Checking file failed: Failed to execute addon &amp;#039;&amp;#039; - exitcode is 2: python.exe   --cli &amp;quot;E:\STM32 Codes\baremetal_dma\check-cppcheck-build-dir\sysmem.a1.23044.dump&amp;quot;&#10;Output:&#10;&#10;unknown option --cli&#13;&#10;usage: python.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...&#13;&#10;Try `python -h&amp;#039; for more information." file0="Src/sysmem.c" sinceDate="dd-MM-yyyy">
+            <location file="Src\sysmem.c" line="0"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_sbrk&amp;#039; is never used." verbose="The function &amp;#039;_sbrk&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\sysmem.c" line="53"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdint.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdint.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd-MM-yyyy">
+            <location file="Src\text.c" line="7"/>
+        </error>
+        <error id="internalError" severity="error" msg="Bailing out from analysis: Checking file failed: Failed to execute addon &amp;#039;&amp;#039; - exitcode is 2" verbose="Bailing out from analysis: Checking file failed: Failed to execute addon &amp;#039;&amp;#039; - exitcode is 2: python.exe   --cli &amp;quot;E:\STM32 Codes\baremetal_dma\check-cppcheck-build-dir\text.a1.23044.dump&amp;quot;&#10;Output:&#10;&#10;unknown option --cli&#13;&#10;usage: python.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...&#13;&#10;Try `python -h&amp;#039; for more information." file0="Src/text.c" sinceDate="dd-MM-yyyy">
+            <location file="Src\text.c" line="0"/>
+        </error>
+        <error id="internalError" severity="error" msg="Bailing out from analysis: Checking file failed: Failed to execute addon &amp;#039;&amp;#039; - exitcode is 2" verbose="Bailing out from analysis: Checking file failed: Failed to execute addon &amp;#039;&amp;#039; - exitcode is 2: python.exe   --cli &amp;quot;E:\STM32 Codes\baremetal_dma\check-cppcheck-build-dir\main.a1.23044.dump&amp;quot;&#10;Output:&#10;&#10;unknown option --cli&#13;&#10;usage: python.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...&#13;&#10;Try `python -h&amp;#039; for more information." file0="Src/main.c" sinceDate="dd-MM-yyyy">
+            <location file="Src\main.c" line="0"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;DMA1_Stream5_IRQHandler&amp;#039; is never used." verbose="The function &amp;#039;DMA1_Stream5_IRQHandler&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\main.c" line="177"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;DMA1_Stream6_IRQHandler&amp;#039; is never used." verbose="The function &amp;#039;DMA1_Stream6_IRQHandler&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\main.c" line="184"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;EXTI15_10_IRQHandler&amp;#039; is never used." verbose="The function &amp;#039;EXTI15_10_IRQHandler&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\main.c" line="146"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;USART2_IRQHandler&amp;#039; is never used." verbose="The function &amp;#039;USART2_IRQHandler&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\main.c" line="161"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;delay_ms&amp;#039; is never used." verbose="The function &amp;#039;delay_ms&amp;#039; is never used." cwe="561" sinceDate="dd-MM-yyyy">
+            <location file="Src\main.c" line="57"/>
+        </error>
+    </errors>
+</results>

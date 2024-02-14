@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="7537768892407084780">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;errno.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;errno.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="E:\STM32 Codes\baremetal_dma\Src\sysmem.c" line="24" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdint.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdint.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="E:\STM32 Codes\baremetal_dma\Src\sysmem.c" line="25" column="0"/>
+        </error>
+        <error id="valueFlowBailoutIncompleteVar" severity="debug" msg="valueFlowConditionExpressions bailout: Skipping function due to incomplete variable errno" verbose="valueFlowConditionExpressions bailout: Skipping function due to incomplete variable errno" file0="E:/STM32 Codes/baremetal_dma/Src/sysmem.c">
+            <location file="E:\STM32 Codes\baremetal_dma\Src\sysmem.c" line="71" column="5"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:8304:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" verbose="valueflow.cpp:8304:(valueFlow) bailout: valueFlowAfterCondition: bailing in conditional block" file0="E:/STM32 Codes/baremetal_dma/Src/sysmem.c">
+            <location file="E:\STM32 Codes\baremetal_dma\Src\sysmem.c" line="73" column="3"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:8296:(valueFlow) bailout: valueFlowAfterCondition: __sbrk_heap_end is changed in conditional block" verbose="valueflow.cpp:8296:(valueFlow) bailout: valueFlowAfterCondition: __sbrk_heap_end is changed in conditional block" file0="E:/STM32 Codes/baremetal_dma/Src/sysmem.c">
+            <location file="E:\STM32 Codes\baremetal_dma\Src\sysmem.c" line="66" column="3"/>
+        </error>
+        <error id="internalError" severity="error" msg="Bailing out from analysis: Checking file failed: Failed to execute addon &apos;&apos; - exitcode is 2" verbose="Bailing out from analysis: Checking file failed: Failed to execute addon &apos;&apos; - exitcode is 2: python.exe   --cli &quot;E:\STM32 Codes\baremetal_dma\check-cppcheck-build-dir\sysmem.a1.23044.dump&quot;\012Output:\012\012unknown option --cli\015\012usage: python.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...\015\012Try `python -h&apos; for more information." file0="E:/STM32 Codes/baremetal_dma/Src/sysmem.c">
+            <location file="E:\STM32 Codes\baremetal_dma\Src\sysmem.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="_sbrk" lineNumber="53"/>
+    <functioncall functionName="ENOMEM"/>
+    <functioncall functionName="NULL"/>
+  </FileInfo>
+</analyzerinfo>
